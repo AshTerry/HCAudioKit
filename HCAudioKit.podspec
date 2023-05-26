@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HCAudioKit'
-  s.version          = '0.99.0'
+  s.version          = '0.99.1'
   s.summary          = 'A kit for audio therapy.'
 
 # This description is used to generate tags and improve search results.

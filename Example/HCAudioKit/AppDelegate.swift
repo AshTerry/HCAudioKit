@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  HCAudioKit
 //
-//  Created by chenzhen on 05/26/2023.
-//  Copyright (c) 2023 chenzhen. All rights reserved.
+//  Created by HC on 05/26/2023.
+//  Copyright (c) 2023 HC. All rights reserved.
 //
 
 import UIKit
+import AVFAudio
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // 1. 获取音频会话
+        let audioSession: AVAudioSession = AVAudioSession.sharedInstance()
+        
+        do {
+            // 2. 设置会话类型
+            if #available(iOS 10.0, *) {
+                try audioSession.setCategory(.playback)
+            } else {
+                // Fallback on earlier versions
+            }
+            
+            // 3. 激活会话
+            try audioSession.setActive(true)
+            
+        }catch {
+            print(error)
+        }
+        UIApplication.shared.beginReceivingRemoteControlEvents()
         return true
     }
 

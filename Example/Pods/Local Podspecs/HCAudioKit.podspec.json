@@ -1,6 +1,6 @@
 {
   "name": "HCAudioKit",
-  "version": "0.99.0",
+  "version": "0.99.1",
   "summary": "A kit for audio therapy.",
   "description": "A kit for audio therapy.",
   "homepage": "https://github.com/chenzhen/HCAudioKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AshTerry/HCAudioKit.git",
-    "tag": "0.99.0"
+    "tag": "0.99.1"
   },
   "platforms": {
     "ios": "10.0"

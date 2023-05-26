@@ -1,5 +1,4 @@
 import XCTest
-import HCAudioKit
 
 class Tests: XCTestCase {
     
