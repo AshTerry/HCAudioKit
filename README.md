@@ -17,7 +17,7 @@ HCAudioKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'HCAudioKit'
+pod 'HCAudioKit', :git => "https://github.com/AshTerry/HCAudioKit.git", :tag => [latest version]
 ```
 
 ## Author

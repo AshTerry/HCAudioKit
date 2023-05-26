@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'A kit for audio therapy.'
 
-  s.homepage         = 'https://github.com/chenzhen/HCAudioKit'
+  s.homepage         = 'https://github.com/AshTerry/HCAudioKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hc' => 'hc@huicheng.cn' }
