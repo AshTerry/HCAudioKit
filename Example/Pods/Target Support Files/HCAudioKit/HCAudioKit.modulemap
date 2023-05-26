@@ -1,0 +1,6 @@
+framework module HCAudioKit {
+  umbrella header "HCAudioKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
