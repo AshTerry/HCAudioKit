@@ -7,7 +7,5 @@ target 'HCAudioKit_Example' do
 
   target 'HCAudioKit_Tests' do
     inherit! :search_paths
-
-    
   end
 end

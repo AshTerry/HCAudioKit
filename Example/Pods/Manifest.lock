@@ -1,5 +1,5 @@
 PODS:
-  - HCAudioKit (0.1.0)
+  - HCAudioKit (0.99.0)
 
 DEPENDENCIES:
   - HCAudioKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HCAudioKit: e8165190a011f6071c9d3056be52cec891442e50
+  HCAudioKit: e31c42f1fc4bede4ce251080ae5168b0b10b20a5
 
 PODFILE CHECKSUM: e686831d942d1f83c19e624536612f1aaf86414b
 
